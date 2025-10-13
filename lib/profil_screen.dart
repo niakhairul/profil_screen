@@ -6,8 +6,8 @@ class ProfilScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 237, 92, 182),
-      appBar: AppBar(backgroundColor: const Color.fromARGB(255, 218, 96, 239),
+      backgroundColor: const Color.fromARGB(255, 240, 79, 133),
+      appBar: AppBar(backgroundColor: const Color.fromARGB(255, 244, 244, 244),
       title: Text("Profil"),
       ),
       body: Center(

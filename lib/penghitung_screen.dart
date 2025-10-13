@@ -25,7 +25,7 @@ class _PenghitungScreenState extends State<PenghitungScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink,
+      backgroundColor: const Color.fromARGB(255, 240, 79, 133),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
