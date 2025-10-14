@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'login_screen.dart';
 import 'profil_screen.dart';
 import 'penghitung_screen.dart';
 import 'home_screen.dart';
@@ -32,7 +33,7 @@ Widget build(BuildContext context) {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeScreen()
+      home: LoginScreen()
     );
   }
 }

@@ -38,7 +38,13 @@ class _PenghitungScreenState extends State<PenghitungScreen> {
             child: Text("Hitung"),),
             TextButton(onPressed: (){
               pindahHalaman();
-            }, child: Text("Pindah Profil"))
+            }, child: Text("Pindah Profil")),
+            ElevatedButton(onPressed: (){}, child: Text("Tombol")),
+
+            TextButton(onPressed: (){
+              Navigator.pop(context);
+              },
+              child: Text("Kembali")),
           ],
           ),
       ),

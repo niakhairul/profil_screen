@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
 class ProfilScreen extends StatelessWidget {
-  const ProfilScreen({super.key});
+  const ProfilScreen({super.key,this.username });
+
+  final String? username;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 240, 79, 133),
       appBar: AppBar(backgroundColor: const Color.fromARGB(255, 244, 24, 112),
-      title: Text("Profil"),
+      title: Text("Profil $username"),
       ),
+      
       body: Center(
         child: ListView(
           children: [
@@ -46,6 +49,12 @@ class ProfilScreen extends StatelessWidget {
                 trailing: Icon(Icons.exit_to_app),
                 ),
              ),
+             ElevatedButton(onPressed: (){}, child: Text("Tombol")),
+             
+             TextButton(onPressed: (){
+              Navigator.pop(context);
+              },
+              child: Text("Kembali")),
           ],
           ),
       ),
